@@ -1,17 +1,14 @@
-// src/Travel.js
 import React from "react";
 
-const Travel = () => (
+const Travel = ({ destination, country, photo, distance}) => (
   <figure>
-    <img
-      src=""
-      alt="Photo"
-    />
+    <img src={photo} alt={destination} />
+    <h1>{country}</h1>
+    <p>{destination}</p>
+    <p>{distance}</p>
     <figcaption>
-      <blockTravel>
-        Shoplifting is a victimless crime, like punching someone in the dark.
-      </blockTravel>
-      <cite></cite>
+      <blockTravel>{}</blockTravel>
+      
     </figcaption>
   </figure>
 );

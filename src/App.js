@@ -11,9 +11,21 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Simpsons Travels</h1>
+          <h1 className="App-title">Travels</h1>
         </header>
-        <Travel />
+          <Travel 
+            photo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Paris_-_Eiffelturm_und_Marsfeld2.jpg/280px-Paris_-_Eiffelturm_und_Marsfeld2.jpg"
+            country=" France "
+            destination=" Paris "
+            distance=" c'est à 800 km de Toulon"    
+            />
+
+          <Travel 
+            photo="http://www.kabdani.ma/upload_LG/Ph_pack_3976_1245.jpg"
+            country=" Espagne "
+            destination=" Madrid "
+            distance=" c'est à 1200 km de Toulon"    
+            />
       </div>
     );
   }
