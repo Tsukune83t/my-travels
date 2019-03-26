@@ -18,7 +18,7 @@ const travels = [
     },
     {
         destination:"New York", 
-        country:"Eetats-Unis", 
+        country:"Etats-Unis", 
         photo:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs2cq--QOgR6sY0UmOyJ_Sg6v017aA-6izQdOA9UQQ7cYLhwZ0",
         distance:" New York se trouve à 6 350 km de Toulon"
@@ -42,7 +42,7 @@ const Travels = () => (
     <div>
         {travels.map(country => (
 
-      <Travel {...country} /> ))}
+    <Travel {...country} /> ))}
     </div>
 )
 
